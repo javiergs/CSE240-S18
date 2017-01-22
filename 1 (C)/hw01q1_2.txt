@@ -1,0 +1,67 @@
+________________
+|Nikola Uzelac  |
+|CSE 240        |
+|1208890978     |
+|8/27/16        |
+|_______________|
+
+/----------------------------------------------Compiling----------------------------------------------------------/
+
+   Before we address the differences in compilation between GCC and Visual Studio we need to define what compilation
+is. Compilation is essentially when a high level language, in this case C, is taken and broken down to assembly/
+machine code so the computer can actually understand what human is trying to tell it. When using GCC we used a
+primitive compile method by navigating through the directory via console, editing the code though the pico text
+ editor/command "pico <filename.c>, find errors through the "gcc -Wall Filename.c -o <binname>" command,
+ and once satisfied you would execute your result by "./<filename>" command. You would continuously repeat these
+steps until the code compiled gave the desired result. Visual Studio on the other hand had a much more autonomous
+feel. Everything seemed to be more modern and self-completing. A prime example of how syntactical errors would be
+noticed in real time without having to compile. This is a much more efficient approach, instead of having to compile
+and search through command code to find errors, it is highlighted/underlined to point it out beforehand. Lastly,
+the most impressive and useful feature of VS is the way you compile and debug. With a simple shortcut of "ctrl + f5"
+both commands were executed simultaneously. In terms of modernity and efficiency VS shows its superiority in
+compilation.
+
+/------------------------------------------------Editing----------------------------------------------------------/
+
+   Before we address the differences in editing between GCC and Visual Studio we need to define what editing is.
+Editing in relation to code is having some type of text editor program that is designed specifically for editing
+code by programmers. In GCC if you wanted to reach the actual code you would have to enter the command "pico
+ <filename.c>". It was really inconvenient not having a separate window for the build output and the actual code
+like in Visual Studio. Though it was quite inconvenient it did not compare to how you actually navigated the code.
+In GCC you could only navigate through keys instead of clicking, which means if you want to go to the bottom of the
+code you would need to hold the down key until you cycled through the entire code. Next if you wanted to select
+a section to delete or change you couldn’t. An example of this included when you wanted to delete multiple lines of
+code you would have to hold the delete button instead of selecting a section and deleting it like in Visual Studio.
+Finally, Visual Studio had a real time syntactical error detector as GCC did not. This made life much easier by
+editing the code before actually compiling it to see the mistakes. All in all, Visual Studio was much more enjoyable
+to use as you could navigate the code much easier, delete multiple sections of code at once and see the syntactical
+errors in real time making the development process much quicker.
+
+/---------------------------------------------Debugging----------------------------------------------------------/
+
+   Before we address the differences in debugging we need to understand exactly what it is. Debugging is essentially
+resolving defects that prevent correct operation of code. Some of the most common forms of debugging is semantical
+where code is defective in the sense of outputting what was actually intended. In GCC debugging was extremely
+primitive in the sense of console use. First you would have to compile the c file into an output executable called
+binname. Then, you would have to execute the code through the "./<binname>" command. Once executed only then you 
+could see where your mistakes are through the vintage like console window with carrots pointing to some error. The
+error descriptions were very vague and most of the time hardly helped. With Visual Studio the error was clearly 
+stated in the output window with a very intuitive approach to the error. Most of the time the error description
+in VS was descriptive enough to make you have an "Ah-Ha" moment. The only way to get a more accurate approach in 
+gcc is to execute the "-g flag" to run debugging, "gbd fileName" command so you could start the actual debugger,
+and "break <line_number> to add breakpoint in gcc. Only then can you have a debugging experience that somewhat comes
+close to VS's debugging one. Not having the real time syntactical corrections and a menu window really does not come
+close to VS in the end.  
+
+/---------------------------------------------Executing----------------------------------------------------------/
+
+   When comparing how the code executes in VS and gcc we see that both environments do the same thing in principle
+but in actuality the feel and the approach are both very different. In gcc the commands were long and tedious while
+VS's was anything but. For example to execute your code in gcc you would have to do the command "./<fileName>" and
+"gcc <filename>.c -o<binname>" to compile the file. Once these commands are in the code will execute and give you
+the output. In VS it is much more simple and quick, with just the command of "CTRL f5" you compile and execute at
+the same time saving you time and frustration. The output window would the show the program in its entirety. All 
+in all as we have seen time after time Visual Studio is much more modern, simple, and efficient in terms of compiling,
+editing, debugging, and execution.
+
+/----------------------------------------------------------------------------------------------------------------/
